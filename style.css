@@ -414,8 +414,6 @@ nav.nav{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
-  gap: 35%;
 }
 
 .right-nav {
@@ -463,11 +461,14 @@ nav.nav{
 }
 
 #hero {
-  background-image: url("images/bovi_hero.jpg");
-  height: 130vh;
+  
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top ;
+}
+
+#hero  img {
+  width: 100%;
 }
 
 /* TICKTETS SECTION */
