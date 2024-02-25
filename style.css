@@ -493,7 +493,13 @@ nav.nav{
 
 .card {
   box-shadow: 5px 5px 10px #1f1f1f54;
+  transition: all .3s ease-in-out;
 }
+
+.card:active {
+  transform: scale(.98);
+}
+
 .wrapper a{
   text-decoration: none;
   color: #1f1f1f;
