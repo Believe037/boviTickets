@@ -379,7 +379,36 @@ header{
   z-index: 100;
 }
 
+header .container .row .col-12.col-lg-12 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 280px){
+  .row .col-12 .nav .right-nav a[href="#tickets"]{
+    font-size: .5rem;
+    padding: 2px;
+  }
+
+  #tickets .text-center h2.title {
+    font-size: 12px;
+  }
+
+   .row .col-12 .nav .right-nav ul{
+    font-size: .5rem;
+   }
+}
+
+
 @media (max-width: 490px) {
+
+ 
+
+  nav.nav p.logo {
+    font-size: 18px;
+    margin-right: 10px;
+  }
   .row .col-12 .nav .right-nav a {
     padding: 8px;
     font-size: .6rem;
@@ -393,6 +422,7 @@ header{
 
   .row .col-12 .nav .right-nav ul {
     justify-content: center;
+    
   }
 
   #tickets .text-center h2 {
@@ -406,6 +436,10 @@ header{
 
   .city.text-left a p::before {
     width: 2px;
+  }
+
+  section#tickets {
+    padding: 40px;
   }
 }
 
@@ -525,4 +559,14 @@ nav.nav{
   height: 100%;
   position: absolute;
   left: 0;
+}
+
+/* FOOTER */
+
+footer#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1f1f1f;
+  padding: 48px 16px;
 }
