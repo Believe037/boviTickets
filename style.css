@@ -386,9 +386,13 @@ header .container .row .col-12.col-lg-12 {
 }
 
 @media (max-width: 280px){
+
+  header#header {
+    padding: 10px;
+  }
   .row .col-12 .nav .right-nav a[href="#tickets"]{
-    font-size: .5rem;
-    padding: 2px;
+    font-size: .4rem;
+    padding: 1px;
   }
 
   #tickets .text-center h2.title {
@@ -398,6 +402,18 @@ header .container .row .col-12.col-lg-12 {
    .row .col-12 .nav .right-nav ul{
     font-size: .5rem;
    }
+
+   footer#footer {
+    padding: 18px 6px;
+   }
+
+    #footer small.footer-year {
+      font-size: .5rem;
+    }
+
+    section#tickets.tickets-sect {
+      padding: 16px;
+    }
 }
 
 
@@ -441,6 +457,8 @@ header .container .row .col-12.col-lg-12 {
   section#tickets {
     padding: 40px;
   }
+
+ 
 }
 
 nav.nav{
@@ -563,7 +581,7 @@ nav.nav{
 
 /* FOOTER */
 
-footer#footer {
+#footer {
   display: flex;
   justify-content: center;
   align-items: center;
